@@ -10,7 +10,6 @@ Input: nums = [1,2,4,6]
 
 Output: [48,24,12,8]
 ```
-Explanation: nums[0] + nums[1] == 7, so we return [0, 1].
 
 Example 2:
 ```
