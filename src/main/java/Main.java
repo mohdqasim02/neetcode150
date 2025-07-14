@@ -1,5 +1,3 @@
-package arrays;
-
 import arrays.twosum.Solution;
 
 public class Main {
