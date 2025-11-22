@@ -7,8 +7,8 @@ class Solution {
     public boolean checkInclusion(String s1, String s2) {
         if(s1.length() > s2.length()) return false;
 
-        Map<Character, Integer> strFrequency = new HashMap();
-        Map<Character, Integer> windowFrequency = new HashMap();
+        Map<Character, Integer> strFrequency = new HashMap<>();
+        Map<Character, Integer> windowFrequency = new HashMap<>();
 
         for(int i = 0; i < s1.length(); i++) {
             strFrequency.put(s1.charAt(i), strFrequency.getOrDefault(s1.charAt(i), 0) + 1);
